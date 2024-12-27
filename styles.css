@@ -1,0 +1,103 @@
+* {
+  font-family: 'Roboto Slab', serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding:10px 30px;
+}
+
+#chart {
+  padding: 10px 10px 5px;
+  background-color: deepskyblue;
+  margin: auto;
+  width: fit-content;
+  height: fit-content;
+}
+
+svg {
+  background: hotpink;
+  margin: 0;
+  padding: 0;
+}
+
+.bar:hover {
+  fill: dodgerblue;
+}
+
+h2 {
+  font-size: 26px;
+  margin-bottom: 0;
+}
+
+/* #subhead {
+  font-weight: 200;
+  font-size: 14px;
+  display: block;
+  max-width: 1000px;
+}
+
+#tooltip {
+  position: absolute;
+  top: 250px;
+  left: 200px;
+  width: 200px;
+  height: 90px;
+  background: #e6e6ec;
+  border-radius: 3px;
+  padding: 10px 0;
+}
+
+p {
+  display: block;
+  text-align: center;
+}
+
+.hide {
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+.show {
+  opacity: 1;
+  transition: opacity .5s;
+} */
+
+footer {
+  position: fixed;
+  bottom: 0;
+  padding: 20px;
+  display: block;
+  width: 100%;
+  background-color: lightblue;
+  border-top: deepskyblue 2px solid;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+
+/* * {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.game-image-wrapper {
+  display: block;
+  max-width: 200px;
+  min-height: 100px;
+  background-color: lightgray;
+}
+.game-image-wrapper ::before {
+  content: "Sorry, this image is missing";
+}
+
+.game-image {
+  max-width: 600px;
+}
+ */
